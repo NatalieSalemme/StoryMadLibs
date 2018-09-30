@@ -91,7 +91,17 @@ class App extends Component {
       </div>
       <input type="submit" value="Create Story" onSubmit={this.submit}/>
       <div>
-        
+        <h3>Your story</h3>
+          <p class="container"> Once upon a time, there was a turtle who I named
+            {this.state.pet}. It decided it wanted to {this.state.verb} so I really
+            had to try hard to catch up to it. I was so thirsty so I decided to drink
+            {this.state.drink} to quench my thirst. It was <br /> {this.state.season} and
+            I was definitely NOT dressed properly for the weather that day. Once I
+            relaxed a little bit, I looked at the turtle and saw that there was a
+            {this.state.color} envelope attached to its {this.state.bodypart}. I
+            couldn't believe it, attached were {this.state.number} tickets to my
+            favorite place, {this.state.place}. I was so excited I immediately
+            tweeted about it.</p>
       </div>
       </div>
     );
